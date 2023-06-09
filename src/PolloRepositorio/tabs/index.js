@@ -1,5 +1,6 @@
 import { Tabs } from 'antd';
 import React from 'react';
+
 function MiComponente (){
     const onChange = (key) => {
         console.log(key);

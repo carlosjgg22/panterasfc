@@ -1,0 +1,103 @@
+:root {
+    --color-estilo-principal: #000000;
+    --color-estilo-secundario: #ffffff;
+    --color-pantera-dorado: #fbff00;
+    --color-texto-oscuro: #003057;
+    --color-texto-claro: #0264b4;
+}
+
+/*ESTILOS NAVBAR*/
+.navigation {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 40px;
+    max-height: 14vh;
+    color: var(--color-texto-claro);
+    background-color: var(--color-pantera-dorado);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation.active {
+    width: max-content;
+}
+
+.navigation-links {
+    display: flex;
+    gap: 10px;
+}
+
+.navigation.active .menu {
+    position: relative;
+}
+
+.navigation .menu.active {
+    rotate: 180deg;
+}
+
+.profile {
+    display: flex;
+    height: 100px;
+    width: 220px;
+}
+
+.profile p {
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: 22px 0 0px;
+}
+
+/*ESTILOS GENERALES*/
+
+.mainpage {
+    min-height: 100vh;
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: black;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    margin: 4px;
+
+}
+
+button {
+    height: 25px;
+    width: 60px;
+    margin: 10px;
+}
+
+input {
+    margin: 20px;
+}
+
+/*ESTILOS FOOTER*/
+.footer {
+    width: 100%;
+    max-height: 22vh;
+    background-color: var(--color-estilo-principal);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer a {
+    color: var(--color-estilo-secundario);
+    text-decoration: none;
+    font-size: 32px;
+}
