@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div>
             <footer>
-                <div className="container footer navigation-links">
+                <div className="container footer navigation-links w-100%">
                     <a href="https://www.facebook.com" className="text-decoration-none link-light" target="_blank" rel="noreferrer"><Nav title="Facebook" /></a>
                     <a href="https://www.twitter.com" className="text-decoration-none link-light" target="_blank" rel="noreferrer"><Nav title="Twitter" /></a>
                     <a href="https://www.instagram.com" className="text-decoration-none link-light" target="_blank" rel="noreferrer"><Nav title="Instagram" /></a>

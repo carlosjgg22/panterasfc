@@ -19,12 +19,12 @@ const Navigation = () => {
                             <p>Binvenidos a Panteras FC</p>
                         </div>
                         <div className="navigation-links">
-                            <Link to="/" className="text-decoration-none link-light"><Nav title="Inicio" /></Link>
-                            <Link to="/mision" className="text-decoration-none link-light"><Nav title="Mision" /></Link>
-                            <Link to="/vision" className="text-decoration-none link-light"><Nav title="Vision" /></Link>
-                            <Link to="/objetivos" className="text-decoration-none link-light"><Nav title="Objetivos" /></Link>
-                            <Link to="/plantilla" className="text-decoration-none link-light"><Nav title="Plantilla" /> </Link>
-                            <Link to="/contacto" className="text-decoration-none link-light"><Nav title="Contacto" /> </Link>
+                            <Link to="/" className="text-decoration-none link-dark"><Nav title="Inicio" /></Link>
+                            <Link to="/mision" className="text-decoration-none link-dark"><Nav title="Mision" /></Link>
+                            <Link to="/vision" className="text-decoration-none link-dark"><Nav title="Vision" /></Link>
+                            <Link to="/objetivos" className="text-decoration-none link-dark"><Nav title="Objetivos" /></Link>
+                            <Link to="/plantilla" className="text-decoration-none link-dark"><Nav title="Plantilla" /> </Link>
+                            <Link to="/contacto" className="text-decoration-none link-dark"><Nav title="Contacto" /> </Link>
                         </div>
                     </div>
                 </>
